@@ -1,67 +1,91 @@
 body {
     font-family: "Merriweather", sans-serif;
-    color: #fafafa;
-    background-color: rgba(204, 226, 235, 0.589);
+    color: #3b3b3bb3;
+    background-color: rgba(234, 237, 238, 0.952);
 }
 
+/* --------- Header */
 .top-left-buttons {
     margin-left: 15px;
 }
 
 #zuzana-button {
-    background-color: rgb(177, 39, 82);
+    color: #3b3b3bb3;
+    background-color: rgb(236, 184, 184);
 }
 
 #ondrej-button {
-    background-color: rgb(20, 20, 89);
+    background-color: rgb(23, 75, 126);
 }
 
+/* --------- Landing page Intro */
 #intro-text-box {
     width: 100%;
     height: auto;
     text-align: center;
-    background-color: rgb(241, 178, 114);
     border: 2px solid;
-}
-
-#carousel-window {
-    width: 100%;
-    height: auto;
-    background-color: rgb(229, 188, 147);
-    border: 2px solid;
-}
-
-#map-window {
-    min-height: 300px;
-    text-align: center;
-    background: url(/assets/images/map-screenshot.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-color: rgb(229, 188, 147);
-    margin-top: 10px;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    padding-top: 10px;
     margin-bottom: 10px;
 }
 
 
+@media only screen and (max-width: 900px) {
+    #intro-text-box {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        border: 2px solid;
+        border-radius: 5px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+    }
+}
 
-#front-page-albums {
+@media only screen and (max-width: 600px) {
+    .intro-p {
+        font-size: 12px;
+        text-align: center;
+        margin: 5px;
+    }
+}
+
+/* --------- Landing page carousel */
+#carousel-window {
     height: auto;
-    background-color: rgb(229, 188, 147);
+    margin-top: 20px;
+}
+
+/* --------- Landing page Google Maps API */
+#map-window {
+    width: 100%;
+    min-height: 300px;
+    text-align: left;
+    background: url(/assets/images/map-screenshot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* --------- Landing page Albums 
+#landing-page-albums {
+    width: 100%;
+    height: auto;
     margin-top: 10px;
 }
 
-.front-page-albums-destination {
-    width: 30%;
+.landing-page-albums-destination {
     height: 300px;
     text-align: center;
-    background-color: wheat;
-    border: 2px solid;
+    border: 2px solid #3b3b3bb3;
     margin: 5px;
 
 }
 
-.front-page-albums-destination-inside {
+.landing-page-albums-destination-inside {
     width: 100%;
     height: 85%;
     background: url(/assets/images/map-screenshot.jpg);
@@ -71,16 +95,69 @@ body {
     z-index: 1;
 }
 
+--------*/
+
+.dubai-1 {
+    width: 100%;
+    height: 350px;
+    background: url(/assets/images/dubai/dubai-1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 45%;
+    z-index: 1;
+}
+
+.dubai-2 {
+    width: 100%;
+    height: 300px;
+    background: url(/assets/images/map-screenshot.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 1;
+}
+
+.cuba-1 {
+    width: 100%;
+    height: 350px;
+    background: url(/assets/images/cuba/cuba-0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 1;
+}
+
+
+.card {
+    margin: 5px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+
+
+.landing-page-albums-destination-inside h2 {
+    color: black;
+}
+
+/* --------- IDs------- 
+#window-a-dubai #window-b-cuba #window-c-singapore #window-d-java #window-e-miami #window-f-disney 
+*/
+
+
 .map-marker {
     color: rgb(230, 60, 30);
 }
 
+/* --------- Footer */
 footer {
     min-height: 40px;
-    color: black;
-    background-color: blanchedalmond;
-    margin: 0;
-    border-top: 3px solid black;
+    color: #3b3b3bb3;
+    border-top: 3px solid #3b3b3bb3;
+    border-bottom: 3px solid #3b3b3bb3;
+    margin-top: 10px;
 }
 
 .footer-sections {
@@ -95,7 +172,7 @@ footer {
 }
 
 .footer-socials {
-    color: black;
+    color: #3b3b3bb3;
     margin-left: 10px;
 }
 
@@ -108,13 +185,10 @@ footer h6 {
 }
 
 .footer-socials:hover {
-    color: grey;
+    color: black;
 }
 
-@media only screen and (max-width: 600px) {
-    .intro-p {
-        font-size: 12px;
-        text-align: center;
-        margin: 5px;
-    }
+.active-footer {
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.801);
 }
