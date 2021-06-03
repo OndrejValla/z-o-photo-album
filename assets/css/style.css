@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     font-family: "Merriweather", sans-serif;
     color: #3b3b3bb3;
     background-color: rgba(234, 237, 238, 0.952);
@@ -70,76 +71,71 @@ body {
     margin-bottom: 10px;
 }
 
-/* --------- Landing page Albums 
-#landing-page-albums {
+/* --------- Landing page Albums --------*/
+
+.card-group {
     width: 100%;
-    height: auto;
-    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
-.landing-page-albums-destination {
-    height: 300px;
+.card {
+    width: 100%;
+    height: 650px;
+    perspective: 1000px;
+}
+
+.card-body {
+    width: 100%;
+    height: 600px;
     text-align: center;
-    border: 2px solid #3b3b3bb3;
-    margin: 5px;
-
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
 }
 
-.landing-page-albums-destination-inside {
+.card-body.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.card-front-back {
+    position: absolute;
+    width: 90%;
+    height: 600px;
+    backface-visibility: hidden;
+    overflow: hidden;
+}
+
+
+.card-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.card-content {
     width: 100%;
-    height: 85%;
-    background: url(/assets/images/map-screenshot.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    z-index: 1;
+    height: 100%;
 }
 
---------*/
+.card-header {
+    position: relative;
+}
 
 .dubai-1 {
     width: 100%;
-    height: 350px;
+    height: 300px;
     background: url(/assets/images/dubai/dubai-1.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 45%;
     z-index: 1;
-}
-
-.dubai-2 {
-    width: 100%;
-    height: 300px;
-    background: url(/assets/images/map-screenshot.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    z-index: 1;
-}
-
-.cuba-1 {
-    width: 100%;
-    height: 350px;
-    background: url(/assets/images/cuba/cuba-0.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    z-index: 1;
-}
-
-
-.card {
-    margin: 5px;
-}
-
-.card-body {
-    text-align: center;
-}
-
-
-
-.landing-page-albums-destination-inside h2 {
-    color: black;
 }
 
 /* --------- IDs------- 
