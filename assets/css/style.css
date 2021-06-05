@@ -156,6 +156,43 @@ body {
     color: rgb(230, 60, 30);
 }
 
+/* ---------GALLERY PAGE */
+
+.gallery-window {
+    width: 90%;
+    height: 100%;
+    background-color: grey;
+    text-align: auto;
+    border: 5px solid;
+    border-radius: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallery-row {
+    border: 1px solid;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.h5-left {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 25%;
+}
+
+.h5-right {
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 25%;
+    margin-bottom: 0px;
+}
+
+
+
 /* --------- Footer */
 footer {
     min-height: 40px;
