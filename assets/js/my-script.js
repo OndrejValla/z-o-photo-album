@@ -12,8 +12,8 @@ $("#zuzana-button").on("click", function () {
     $(".intro-p").addClass('intro-p-pink');
     $("#intro-text-box").removeClass('intro-text-blue');
     $("#intro-text-box").addClass('intro-text-pink');
-    $(".gallery-window").removeClass('gallery-window-blue');
-    $(".gallery-window").addClass('gallery-window-pink');
+    $(".gallery-window-row").removeClass('gallery-window-row-blue');
+    $(".gallery-window-row").addClass('gallery-window-row-pink');
 })
 
 
@@ -24,44 +24,65 @@ $("#ondrej-button").on("click", function () {
     $(".intro-p").addClass('intro-p-blue');
     $("#intro-text-box").removeClass('intro-text-pink');
     $("#intro-text-box").addClass('intro-text-blue');
-    $(".gallery-window").removeClass('gallery-window-pink');
-    $(".gallery-window").addClass('gallery-window-blue');
+    $(".gallery-window-row").removeClass('gallery-window-row-pink');
+    $(".gallery-window-row").addClass('gallery-window-row-blue');
 });
 
 
 $("#dubai-button").on("click", function () {
-    $(".dubai-window").toggle('medium');
+    $(".dubai-window").show('medium');
+    $(".cuba-window").hide('fast');
+    $(".singapore-window").hide('fast');
+    $(".java-window").hide('fast');
+    $(".miami-window").hide('fast');
+    $(".disney-window").hide('fast');
 });
 
 $("#cuba-button").on("click", function () {
-    $(".cuba-window").toggle('medium');
+    $(".cuba-window").show('medium');
+    $(".dubai-window").hide('fast');
+    $(".singapore-window").hide('fast');
+    $(".java-window").hide('fast');
+    $(".miami-window").hide('fast');
+    $(".disney-window").hide('fast');
 });
 
 $("#singapore-button").on("click", function () {
-    $(".singapore-window").toggle('medium');
+    $(".singapore-window").show('medium');
+    $(".dubai-window").hide('fast');
+    $(".cuba-window").hide('fast');
+    $(".java-window").hide('fast');
+    $(".miami-window").hide('fast');
+    $(".disney-window").hide('fast');
 });
 
 $("#java-button").on("click", function () {
-    $(".java-window").toggle('medium');
+    $(".java-window").show('medium');
+    $(".dubai-window").hide('fast');
+    $(".cuba-window").hide('fast');
+    $(".singapore-window").hide('fast');
+    $(".miami-window").hide('fast');
+    $(".disney-window").hide('fast');
 });
 
 $("#miami-button").on("click", function () {
-    $(".miami-window").toggle('medium');
+    $(".miami-window").show('medium');
+    $(".dubai-window").hide('fast');
+    $(".cuba-window").hide('fast');
+    $(".singapore-window").hide('fast');
+    $(".java-window").hide('fast');
+    $(".disney-window").hide('fast');
 });
 
 $("#disney-button").on("click", function () {
-    $(".disney-window").toggle('medium');
+    $(".disney-window").show('medium');
+    $(".dubai-window").hide('fast');
+    $(".cuba-window").hide('fast');
+    $(".singapore-window").hide('fast');
+    $(".java-window").hide('fast');
+    $(".miami-window").hide('fast');
 });
 
-
-
-
-//notes from lessons
-
-$(document).ready(function () {
-    $("h2").removeClass("underline");
-    $("ul").addClass("border"); //this class needs to exist in css file
-});
 
 
 
