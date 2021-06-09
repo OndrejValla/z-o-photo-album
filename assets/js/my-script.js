@@ -2,6 +2,10 @@ function bodyLoaded() {
     console.log('Body has loaded!');
 }
 
+
+// Zuzana Ondrej Logo
+
+
 $(".fa-heart").mouseenter(function () {
     $(".fa-heart").css("color", "red")
 });
@@ -9,6 +13,9 @@ $(".fa-heart").mouseenter(function () {
 $(".fa-heart").mouseleave(function () {
     $(".fa-heart").css("color", "black")
 });
+
+
+
 
 // Zuzana-style and Ondrej-style buttons
 $("#zuzana-button").on("click", function () {
