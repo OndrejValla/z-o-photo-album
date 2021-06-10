@@ -35,14 +35,14 @@ $("#ondrej-button").on("click", function () {
 });
 
 // Gallery page destinations buttons
-//$(".gallery-window-row").ready(function () {
-//$(".dubai-window").hide('fast');
-//$(".cuba-window").hide('fast');
-//$(".singapore-window").hide('fast');
-//$(".java-window").hide('fast');
-// $(".miami-window").hide('fast');
-//$(".disney-window").hide('fast');
-//});
+$(".gallery-window-row").ready(function () {
+    //$(".dubai-window").hide('fast');
+    $(".cuba-window").hide('fast');
+    $(".singapore-window").hide('fast');
+    $(".java-window").hide('fast');
+    $(".miami-window").hide('fast');
+    $(".disney-window").hide('fast');
+});
 
 $("#dubai-button").on("click", function () {
     $(".dubai-window").show('medium');
@@ -167,3 +167,8 @@ var locations = [{
         lng: 2.781827944463382
     }
 ];
+
+
+let one = document.getElementById("dubai-card");
+let two = document.getElementById("cuba-card");
+var cards = [one, two, ];

@@ -226,9 +226,13 @@ body {
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-
 }
 
+@media only screen and (max-width: 600px) {
+    .gallery-window-col {
+        padding-top: 50px;
+    }
+}
 
 .gallery-buttons-col {
     text-align: center;
@@ -250,13 +254,18 @@ body {
     margin-bottom: 10px;
 }
 
-.each-gallery>h6 {
+.each-gallery>h5 {
     color: whitesmoke;
 }
+
 
 @media only screen and (max-width: 600px) {
     .gallery-button {
         margin-left: 3px;
+    }
+
+    .each-gallery>h5 {
+        margin-bottom: 30px;
     }
 }
 
