@@ -107,8 +107,8 @@
 
     <!-- Landing page  Bootstrap Carousel -->
     <div class="container" id="carousel-window">
-        <div class="row">
-            <div class="col-12">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10">
                 <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -140,14 +140,15 @@
 
     <!-- GOOGLE MAPS API -->
     <div class="container">
-        <div class="row">
-            <div class="col-12" id="map-window">
-                <h5>GOOGLE MAPS API</h5>
+        <div class="row justify-content-center">
+            <div class="col-11" id="map-window">
+                <h5>GOOGLE MAPS</h5>
             </div>
         </div>
     </div>
 
     <!-- Bootstrap Cards -->
+    <!-- For Cards Rotation function inspired by Google search and Youtube Tyler Potts https://www.youtube.com/watch?v=QGVXmoZWZuw-->
     <div class="card-group">
         <!-- Dubai card -->
         <div class="card">
@@ -468,7 +469,14 @@
     <!-- Script.js -->
     <script type="text/javascript" src="assets/js/jquery-3.6.0.js"></script>
     <script type="text/javascript" src="assets/js/my-script.js"></script>
-    <!-- Bootstrap JS -->
+    <!-- Google Maps js -->
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl1_VPCOywlP487hI7X0o3nw_JpyEJAEw&callback=initMap">
+    </script>
+    <!-- Bootstrap js -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>

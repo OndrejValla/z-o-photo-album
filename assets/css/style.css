@@ -24,6 +24,7 @@ body {
 }
 
 #ondrej-button {
+    color: whitesmoke;
     background-color: rgb(23, 75, 126);
 }
 
@@ -78,21 +79,15 @@ body {
 /* --------- Landing page carousel */
 #carousel-window {
     height: auto;
-    width: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* --------- Landing page Google Maps API */
 #map-window {
-    width: 80%;
     min-height: 300px;
-    text-align: left;
-    background: url(/assets/images/map-screenshot.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
 }
 
 /* --------- Landing page Album Cards --------*/
@@ -228,12 +223,16 @@ body {
 .gallery-window-col {
     width: 100%;
     min-height: 100px;
+    justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
+
 }
+
 
 .gallery-buttons-col {
     text-align: center;
+    color: whitesmoke;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -249,6 +248,10 @@ body {
 .each-gallery {
     margin-top: 15px;
     margin-bottom: 10px;
+}
+
+.each-gallery>h6 {
+    color: whitesmoke;
 }
 
 @media only screen and (max-width: 600px) {
