@@ -272,7 +272,7 @@ body {
 /* --------- Footer */
 footer {
     min-height: 40px;
-    color: #3b3b3bb3;
+    color: #f3f1f1b3;
     border-top: 3px solid #3b3b3bb3;
     border-bottom: 3px solid #3b3b3bb3;
     margin-top: 0px;
@@ -284,13 +284,43 @@ footer {
     background-color: whitesmoke;
     font-size: 100%;
     text-align: center;
+    padding-top: 4px;
     margin-top: auto;
     margin-bottom: auto;
     border: 2px solid white;
 }
 
+.footer-sections-pink {
+    min-height: 30px;
+    min-width: 20%;
+    background-color: rgb(228, 161, 161);
+    font-size: 100%;
+    text-align: center;
+    padding-top: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid white;
+}
+
+.footer-sections-blue {
+    min-height: 30px;
+    min-width: 20%;
+    background-color: rgb(23, 75, 126);
+    font-size: 100%;
+    text-align: center;
+    padding-top: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
 .footer-socials {
     color: #3b3b3bb3;
+    margin-left: 10px;
+}
+
+.footer-socials-blue {
+    color: whitesmoke;
     margin-left: 10px;
 }
 
@@ -308,5 +338,4 @@ footer h6 {
 
 .active-footer {
     text-decoration: underline;
-    color: rgba(0, 0, 0, 0.801);
 }

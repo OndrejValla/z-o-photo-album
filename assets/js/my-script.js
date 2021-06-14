@@ -22,6 +22,7 @@ $("#zuzana-button").on("click", function () {
     $(".intro-p").addClass('intro-p-pink');
     $("#intro-text-box").removeClass('intro-text-blue').addClass('intro-text-pink');
     $(".gallery-window-row").removeClass('gallery-window-row-blue').addClass('gallery-window-row-pink');
+    $(".footer-sections").removeClass('footer-sections-blue').addClass('footer-sections-pink');
 });
 
 
@@ -32,6 +33,8 @@ $("#ondrej-button").on("click", function () {
     $("#intro-text-box").removeClass('intro-text-pink').addClass('intro-text-blue');
     $(".gallery-window-row").removeClass('gallery-window-row-pink').addClass('gallery-window-row-blue');
     $(".gallery-message-h3").css("color", "whitesmoke");
+    $(".footer-sections").removeClass('footer-sections-pink').addClass('footer-sections-blue');
+    $(".footer-socials").removeClass('footer-socials').addClass('footer-socials-blue');
 });
 
 // Gallery page destinations buttons
