@@ -44,7 +44,7 @@ $(".gallery-window-row").ready(function () {
     $(".disney-window").hide('fast');
 });
 
-$("#dubai-button").on("click", function () {
+$(".dubai-button").on("click", function () {
     $(".dubai-window").show('medium');
     $(".cuba-window").hide('fast');
     $(".singapore-window").hide('fast');
@@ -54,7 +54,7 @@ $("#dubai-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-$("#cuba-button").on("click", function () {
+$(".cuba-button").on("click", function () {
     $(".cuba-window").show('medium');
     $(".dubai-window").hide('fast');
     $(".singapore-window").hide('fast');
@@ -64,7 +64,7 @@ $("#cuba-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-$("#singapore-button").on("click", function () {
+$(".singapore-button").on("click", function () {
     $(".singapore-window").show('medium');
     $(".dubai-window").hide('fast');
     $(".cuba-window").hide('fast');
@@ -74,7 +74,7 @@ $("#singapore-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-$("#java-button").on("click", function () {
+$(".java-button").on("click", function () {
     $(".java-window").show('medium');
     $(".dubai-window").hide('fast');
     $(".cuba-window").hide('fast');
@@ -84,7 +84,7 @@ $("#java-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-$("#miami-button").on("click", function () {
+$(".miami-button").on("click", function () {
     $(".miami-window").show('medium');
     $(".dubai-window").hide('fast');
     $(".cuba-window").hide('fast');
@@ -94,7 +94,7 @@ $("#miami-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-$("#disney-button").on("click", function () {
+$(".disney-button").on("click", function () {
     $(".disney-window").show('medium');
     $(".dubai-window").hide('fast');
     $(".cuba-window").hide('fast');
