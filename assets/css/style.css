@@ -269,13 +269,39 @@ body {
     }
 }
 
+/* ---------Contact-form  */
+
+.contact-form-row {
+    padding: 15px;
+}
+
+.contact-form-col {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-form-col>h3 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .contact-form-col>p {
+        font-size: 10px;
+    }
+}
+
 /* --------- Footer */
 footer {
     min-height: 40px;
     color: #f3f1f1b3;
-    border-top: 3px solid #3b3b3bb3;
-    border-bottom: 3px solid #3b3b3bb3;
     margin-top: 0px;
+}
+
+#footer-bottom {
+    position: fixed;
+    bottom: 1px;
 }
 
 .footer-sections {

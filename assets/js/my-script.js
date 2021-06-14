@@ -170,8 +170,3 @@ var locations = [{
         lng: 2.781827944463382
     }
 ];
-
-
-let one = document.getElementById("dubai-card");
-let two = document.getElementById("cuba-card");
-var cards = [one, two, ];
