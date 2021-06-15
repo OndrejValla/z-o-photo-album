@@ -292,6 +292,63 @@ body {
     }
 }
 
+
+
+.random-picture-container {
+    text-align: center;
+    text-decoration: wavy;
+}
+
+
+
+.container-random {
+    min-height: 100%;
+    background-color: rgb(23, 75, 126);
+    text-align: center;
+    border: 5px solid black;
+    padding: 15px;
+}
+
+.col-random-1 {
+    width: auto;
+    min-height: 600px;
+    border: 2px solid rgb(78, 119, 160);
+}
+
+
+#randomdiv {
+    min-height: 500px;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.star {
+    color: goldenrod;
+}
+
+.star-1 {
+    color: goldenrod;
+    font-size: 92px;
+}
+
+.arrow {
+    margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------- Footer */
 footer {
     min-height: 40px;
