@@ -17,7 +17,6 @@ function sendMail(contactForm) {
                 console.log("FAILED", error);
             }
         );
-
     return false;
 }
 
@@ -25,7 +24,6 @@ function sendMail(contactForm) {
 $(document).ready(function () {
     $("#submit-button").click(function (event) {
         $('#submit-button').val('Sending message...');
-        $('#contact-form').submit();
     });
     $('form').submit(function (event) {
         setTimeout(function () {
