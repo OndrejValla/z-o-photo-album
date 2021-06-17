@@ -299,6 +299,9 @@ body {
     text-decoration: wavy;
 }
 
+.random-picture-container>h2 {
+    margin-top: 15px;
+}
 
 
 .container-random {

@@ -114,11 +114,6 @@ $(".disney-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-
-
-
-
-
 // Flip cards function Inspired by Youtube and Web search
 const card = document.querySelectorAll('.card-body');
 
@@ -179,13 +174,19 @@ var locations = [{
 ];
 
 
+//random.html
 
+$(".star-yellow").mouseenter(function () {
+    $(".star-yellow").css("color", "gold")
+});
 
+$(".star-yellow").mouseleave(function () {
+    $(".star-yellow").css("color", "goldenrod")
+});
 
-
-
-
-// T E S T
+$(".star-white").click(function () {
+    $(".star-white").css("color", "white")
+});
 
 // https://www.w3resource.com/javascript-exercises/javascript-dom-exercise-11.php
 
