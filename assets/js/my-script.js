@@ -39,7 +39,8 @@ $("#ondrej-button").on("click", function () {
 
 // Gallery page destinations buttons
 $(".gallery-window-row").ready(function () {
-    //$(".dubai-window").hide('fast');
+    $(".all-destinations-window").show('fast');
+    $(".dubai-window").hide('fast');
     $(".cuba-window").hide('fast');
     $(".singapore-window").hide('fast');
     $(".java-window").hide('fast');
@@ -49,6 +50,7 @@ $(".gallery-window-row").ready(function () {
 
 $(".dubai-button").on("click", function () {
     $(".dubai-window").show('medium');
+    $(".all-destinations-window").hide('fast');
     $(".cuba-window").hide('fast');
     $(".singapore-window").hide('fast');
     $(".java-window").hide('fast');
@@ -59,6 +61,7 @@ $(".dubai-button").on("click", function () {
 
 $(".cuba-button").on("click", function () {
     $(".cuba-window").show('medium');
+    $(".all-destinations-window").hide('fast');
     $(".dubai-window").hide('fast');
     $(".singapore-window").hide('fast');
     $(".java-window").hide('fast');
@@ -69,6 +72,7 @@ $(".cuba-button").on("click", function () {
 
 $(".singapore-button").on("click", function () {
     $(".singapore-window").show('medium');
+    $(".all-destinations-window").hide('fast');
     $(".dubai-window").hide('fast');
     $(".cuba-window").hide('fast');
     $(".java-window").hide('fast');
@@ -79,6 +83,7 @@ $(".singapore-button").on("click", function () {
 
 $(".java-button").on("click", function () {
     $(".java-window").show('medium');
+    $(".all-destinations-window").hide('fast');
     $(".dubai-window").hide('fast');
     $(".cuba-window").hide('fast');
     $(".singapore-window").hide('fast');
@@ -89,6 +94,7 @@ $(".java-button").on("click", function () {
 
 $(".miami-button").on("click", function () {
     $(".miami-window").show('medium');
+    $(".all-destinations-window").hide('fast');
     $(".dubai-window").hide('fast');
     $(".cuba-window").hide('fast');
     $(".singapore-window").hide('fast');
@@ -99,6 +105,7 @@ $(".miami-button").on("click", function () {
 
 $(".disney-button").on("click", function () {
     $(".disney-window").show('medium');
+    $(".all-destinations-window").hide('fast');
     $(".dubai-window").hide('fast');
     $(".cuba-window").hide('fast');
     $(".singapore-window").hide('fast');
