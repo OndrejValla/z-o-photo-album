@@ -68,8 +68,9 @@
     <div class="container">
         <div class="row justify-content-center contact-form-row">
             <div class="col-12 contact-form-col">
-                <h3>We will be happy to receive a message from you</h3>
-                <p>If you like to get in touch please write your message below.<br>Thanks</p>
+                <h3 id="interaction-h3">We will be happy to receive a message from you</h3>
+                <h4 id="interaction-h4"></h4>
+                <p id="interaction-p">If you like to get in touch please write your message below.<br>Thanks</p>
             </div>
         </div>
         <div class="row justify-content-center contact-form-row">
@@ -81,7 +82,8 @@
                         placeholder="Your e-mail" required>
                     <textarea class="form-control mb-1" id="getintouch" name="getintouch" rows="6"
                         placeholder="Get in touch" required></textarea>
-                    <input class="btn btn-success btn-block mt-3" id="submit-button" type="submit" value="Send">
+                    <input onclick="ourGreeting()" class="btn btn-success btn-block mt-3" id="submit-button"
+                        type="submit" value="Send">
                     <input class="btn-block btn btn-light btn-sm" type="reset" value="Reset form">
                 </form>
             </div>
