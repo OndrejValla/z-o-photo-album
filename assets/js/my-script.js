@@ -188,21 +188,57 @@ $(".star-white").click(function () {
     $(".star-white").css("color", "white")
 });
 
+// display random image
 // https://www.w3resource.com/javascript-exercises/javascript-dom-exercise-11.php
-
 function display_random_image() {
     var theImages = [{
-        src: "assets/images/dubai/dubai-1.JPG",
-        width: "356",
-        height: "536"
+        src: "assets/images/random/random-1.jpg",
+        width: "393",
+        height: "547"
     }, {
-        src: "assets/images/dubai/dubai-12.JPG",
-        width: "832",
-        height: "554"
-    }, {
-        src: "assets/images/dubai/dubai-2.JPG",
-        width: "832",
+        src: "assets/images/random/random-2.jpg",
+        width: "407",
         height: "555"
+    }, {
+        src: "assets/images/random/random-3.jpg",
+        width: "730",
+        height: "559"
+    }, {
+        src: "assets/images/random/random-4.jpg",
+        width: "288",
+        height: "512"
+    }, {
+        src: "assets/images/random/random-6.JPG",
+        width: "324",
+        height: "576"
+    }, {
+        src: "assets/images/random/random-9.JPG",
+        width: "432",
+        height: "576"
+    }, {
+        src: "assets/images/random/random-10.JPG",
+        width: "564",
+        height: "564"
+    }, {
+        src: "assets/images/random/random-13.JPG",
+        width: "384",
+        height: "512"
+    }, {
+        src: "assets/images/random/random-17.jpg",
+        width: "384",
+        height: "512"
+    }, {
+        src: "assets/images/random/random-18.jpg",
+        width: "384",
+        height: "512"
+    }, {
+        src: "assets/images/random/random-19.jpg",
+        width: "396",
+        height: "528"
+    }, {
+        src: "assets/images/random/random-20.jpg",
+        width: "384",
+        height: "512"
     }];
 
     var preBuffer = [];
@@ -234,6 +270,3 @@ function display_random_image() {
     // display the image  
     document.getElementById("randomdiv").appendChild(newImage);
 }
-
-//document.getElementById("randomdiv").appendChild(newImage);
-//document.body.appendChild(newImage);
