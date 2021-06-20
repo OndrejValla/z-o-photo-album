@@ -75,7 +75,8 @@
             </div>
         </div>
         <div class="row justify-content-center contact-form-row">
-            <div class="col-12 contact-form-col">
+            <div onkeypress="pressedKeys(event);" onkeydown="pressedKeys(event);" onkeyup="pressedKeys(event);"
+                class="col-12 contact-form-col">
                 <form onsubmit="return sendMail(this);" id="contact-form">
                     <input type="text" class="form-control mb-1" id="full-name" name="name" placeholder="Your full name"
                         required>
@@ -86,6 +87,13 @@
                     <input class="btn btn-success btn-block mt-3" id="submit-button" type="submit" value="Send">
                     <input class="btn-block btn btn-light btn-sm" type="reset" value="Reset form">
                 </form>
+            </div>
+
+            <!-- Smiling icons color change - send-email.js-->
+            <div class="col-12 smile-div">
+                <i class="far fa-smile-beam beam" id="pressed-beam"></i>
+                <i class="fas fa-heart smile" id="up-smile"></i>
+                <i class="far fa-smile-beam beam" id="down-beam"></i>
             </div>
         </div>
     </div>

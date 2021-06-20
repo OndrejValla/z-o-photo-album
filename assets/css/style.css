@@ -289,6 +289,23 @@ body {
     }
 }
 
+.smile-div {
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.beam {
+    display: inline-block;
+}
+
+.smile {
+    display: inline-block;
+    font-size: 32px;
+}
+
+
 /* ---------Random picture page  */
 .random-picture-container {
     text-align: center;
@@ -298,7 +315,6 @@ body {
 .random-picture-container>h2 {
     margin-top: 15px;
 }
-
 
 .container-random {
     min-height: 100%;
@@ -313,7 +329,6 @@ body {
     min-height: 600px;
     padding-bottom: 15px;
 }
-
 
 #randomdiv {
     min-height: 500px;
