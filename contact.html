@@ -66,7 +66,7 @@
     </div>
 
     <!-- Contact Form - send-email.js-->
-    <div class="container">
+    <div class="container" id="contact-form-container">
         <div class="row justify-content-center contact-form-row">
             <div class="col-12 contact-form-col">
                 <h3 id="interaction-h3">We will be happy to receive a message from you</h3>
@@ -82,9 +82,8 @@
                     <input type="text" class="form-control mb-1" id="emailaddress" name="emailaddress"
                         placeholder="Your e-mail" required>
                     <textarea class="form-control mb-1" id="getintouch" name="getintouch" rows="6"
-                        placeholder="Get in touch" required></textarea>
-                    <input onclick="ourGreeting()" class="btn btn-success btn-block mt-3" id="submit-button"
-                        type="submit" value="Send">
+                        placeholder="Get in touch..." required></textarea>
+                    <input class="btn btn-success btn-block mt-3" id="submit-button" type="submit" value="Send">
                     <input class="btn-block btn btn-light btn-sm" type="reset" value="Reset form">
                 </form>
             </div>
