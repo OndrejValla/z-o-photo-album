@@ -250,7 +250,7 @@ Three tested pages had shown No errors or warnings.
 ![Image](assets/images/readme-files/index.html-checked.png)
 
 - [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fondrejvalla.github.io%2Fz-o-photo-album%2Fgallery.html)
-![Image](assets/images/readme-files/gellery.html-checked.png)
+![Image](assets/images/readme-files/gallery.html-checked.png)
 
 - [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fondrejvalla.github.io%2Fz-o-photo-album%2Fcontact.html)
 ![Image](assets/images/readme-files/contact.html-checked.png)
