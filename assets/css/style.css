@@ -1,5 +1,4 @@
 body {
-    width: 100%;
     font-family: "Merriweather", sans-serif;
     color: #3b3b3bb3;
     background-color: rgba(234, 237, 238, 0.952);
@@ -167,6 +166,46 @@ body {
     width: auto;
     height: 300px;
     background: url(../images/cuba/cuba-0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 45%;
+    z-index: 1;
+}
+
+.singapore-1 {
+    width: auto;
+    height: 300px;
+    background: url(../images/singapore/singapore-3.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 10%;
+    z-index: 1;
+}
+
+.java-1 {
+    width: auto;
+    height: 300px;
+    background: url(../images/java/java-0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 45%;
+    z-index: 1;
+}
+
+.miami-1 {
+    width: auto;
+    height: 300px;
+    background: url(../images/miami/miami-5.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 45%;
+    z-index: 1;
+}
+
+.paris-1 {
+    width: auto;
+    height: 300px;
+    background: url(../images/paris/paris-1.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 45%;
