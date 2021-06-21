@@ -304,6 +304,14 @@ body {
 }
 
 /* ---------Contact-form  */
+#full-name {
+    min-height: 60px;
+}
+
+#emailaddress {
+    min-height: 60px;
+}
+
 .contact-form-row {
     padding: 15px;
 }
@@ -311,7 +319,7 @@ body {
 .contact-form-col {
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -388,7 +396,7 @@ body {
 
 /* --------- Footer */
 footer {
-    min-height: 70px;
+    min-height: 60px;
     color: #f3f1f1b3;
     margin-top: 10px;
 }
@@ -399,7 +407,7 @@ footer {
 }
 
 .footer-sections {
-    min-height: 60px;
+    min-height: 55px;
     min-width: 20%;
     background-color: whitesmoke;
     font-size: 100%;
