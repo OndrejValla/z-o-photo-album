@@ -13,8 +13,10 @@ body {
 }
 
 /* --------- Header */
-.top-left-buttons {
-    margin-left: 15px;
+.z-o-buttons {
+    position: absolute;
+    top: 14px;
+    right: 90px;
 }
 
 #zuzana-button {
@@ -67,11 +69,30 @@ body {
     }
 }
 
+@media only screen and (min-width: 600px) {
+    .heading-h2 {
+        font-size: 26px;
+        margin-top: 6px;
+    }
+
+    .z-o-buttons {
+        position: absolute;
+        top: 20px;
+        right: 90px;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
     .intro-p {
         font-size: 12px;
         text-align: center;
         margin: 5px;
+    }
+
+    .heading-h2 {
+        font-size: 16px;
+        margin-top: 6px;
     }
 }
 
