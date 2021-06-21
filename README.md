@@ -51,7 +51,7 @@ To enjoy a website like this, where the main focus is the Gallery of holidays, t
 
 ### The Structure Plane
 
-####This website consist of four pages: index.html, gallery.html, contact.html and random.html.
+#### This website consist of four pages: index.html, gallery.html, contact.html and random.html.
 
 - Home page / Landing page (index.html) contains: 
 1. Top Navbar changing to burger nav on smaller devices. 
@@ -154,16 +154,22 @@ I was aiming to create simple gallery website with some of our holiday pictures.
 - #### Moments to remember page
     - This page features random image function. After the star is clicked, the star changes the color and a random image appears. If clicked again, another random image appears. 
 
+- #### Future Improvements
+    - It would be great to keep the selected theme applied for all pages once style buttons clicked.
+    - More interactivity with the user similar to one in the contact.html.
+    - I am planning to add even more galleries and possibly some video albums in the future.
+    - There will definitely be more to improve once this website will be finished and I start to use it. 
+
 ---
 
 ## Technologies Used
 
-- #### Languages:
+#### Languages:
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-- #### Libraries:
+#### Libraries:
 - [Balsamiq](https://balsamiq.com/) for the wireframes.
 - [Bootstrap 4.2.1](https://getbootstrap.com/) to use the grid system, carousels, pre-formatted features like buttons, collapsible navbar etc.
 - [FontAwesome](https://fontawesome.com/) for icons.
@@ -179,23 +185,201 @@ I was aiming to create simple gallery website with some of our holiday pictures.
 - [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning knowledge.
 - [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any bugs or layout differences.
 - [W3Schools](https://www.w3schools.com/) - used as a general resource for HTML, CSS , JavaScript coding tips.
+- [Stackoverflow](https://stackoverflow.com) - used as a general resource for HTML, CSS , JavaScript coding tips.
 - [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices. 
 - [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
 - [Google Maps](https://developers.google.com/maps) - Used for Google Maps APIs 
+- [Emailjs](https://dashboard.emailjs.com/)- Email service used to connect the contact form with my personal email.
 - [Google](https://www.google.co.uk/) and [Youtube](https://www.youtube.com/) - Used for lots of general research.
 
+---
+
+## Testing
+
+This website was tested on the following browsers:
+
+- Google Chrome (64 bit)
+- Firefox (64-bit)
+- Microsoft Edge (64bit)
+
+This website is mobile friendly, tested by [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
+   ![Image](assets/images/readme-files/mobile-friendly.png)
+
+Tested on following mobiles:
+
+- Samsung Galaxy A21s, S8, S9
+- iPhone 6, 8, 12Pro
+- Sony Xperia Z3, XA2
+- Huawei P10
+
+Tested on following tablets:
+
+- Samsung Galaxy Tab A7
+- iPad 2, iPad
+
+### General Tests
+
+1. Pages are loaded correctly
+    - Testing if the webpage was being loaded correctly
+    - Result: Web page is being loaded correctly
+
+2. Clicking on Logo brings back to home page
+    - Result: When the logo is clicked on, it brings back to the home page
+
+4. All menu buttons and the Dropdown menu is working
+    - Result: All menu buttons and Dropdown menu are working correctly, linked to correct pages.
+
+5. Testing the style buttons
+    - Result: The style of the page is changing between the Pink theme and the Blue theme. 
+
+6. Testing the form
+    - Result: Messages sent to my email.
+
+7. Testing the random image star button
+    - Result: Random images are appearing in random order, once the star button is clicked.
+
+
+#### Testing HTML and CSS
+I used the following validators to check my HTML and CSS code: (https://validator.w3.org/) and (https://jigsaw.w3.org/css-validator/)
+
+[HTML W3C Validator](https://validator.w3.org/)
+
+Three tested pages had shown No errors or warnings.
+
+- [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fondrejvalla.github.io%2Fz-o-photo-album%2Findex.html)
+![Image](assets/images/readme-files/index.html-checked.png)
+
+- [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fondrejvalla.github.io%2Fz-o-photo-album%2Fgallery.html)
+![Image](assets/images/readme-files/gellery.html-checked.png)
+
+- [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fondrejvalla.github.io%2Fz-o-photo-album%2Fcontact.html)
+![Image](assets/images/readme-files/contact.html-checked.png)
+
+Fourth tested page has a warning, however no major issue. The reason is that H4 heading only contains font awesome icon.
+- [Moments to remember Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fondrejvalla.github.io%2Fz-o-photo-album%2Frandom.html)
+![Image](assets/images/readme-files/random.html-checked.png)
 
 
 
+[CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
+![Image](assets/images/readme-files/style.css-checked.png)
+
+[Lighthouse Validator Mobile Results]
+![Image](assets/images/readme-files/light-house-mobile.png)
+Lower performance because of the size of the images in flipping cards.
+
+[Lighthouse Validator Desktop Results]
+![Image](assets/images/readme-files/light-house-desktop.png)
 
 
 
+#### Testing forms
+
+- To make sure the Forms were functioning as they should, I tested each of the forms on different devices and browsers. 
+  This was done by clicking the Submit form button without any text in inputs to make sure it resulted
+  in the desired response of 'Please fill out this field'. Once correctly filled, being sent to my email ondrej.valla@gmail.com via Emailjs.com.
+- Relevant text (greeting function) displays, depends on the time of the day and wether the message was sent succesfully or unsuccessfully.  
+
+#### Testing links
+- Internal links have been checked so when clicked the user is directed to the desired location.
+- External links have been checked to open in new tab and at correct destination.
+
+#### Testing Users Stories
+
+- User story 1: I like to browse through these galleries easily whether on my PC or mobile.
+
+    - Website works on most of the PC web browsers. This website is also mobile friendly, responsive thanks to the Bootstrap grid system.
+
+- User story 2: I like to see each destination separately if possible.
+ 
+    - In the Gallery page, there are six individual buttons each linked to own destination slideshow.
+
+- User story 3: I like when websites are changing colors etc.
+
+    - For little bit of interaction there are buttons change the colour theme of the selected page and buttons for showing/hidding galleries.
+
+- User story 4: Would be great if I could contact Zuzana and Ondrej.
+
+    - That is absolutely fine. We will be very happy to read message from anyone who see this website. You can contact us via social medias, which are linked in the footer, or via the contact us page form, which will send your message directly to our personal email.
+
+- User story 5: I would like to see Zuzana and Ondrej's social media. 
+
+    - As mentioned above, please find the social media links in the footer, have a look and feel free to contact us.
+
+---
+
+## Deployment
+
+[Link to deployed website](https://ondrejvalla.github.io/z-o-photo-album/index.html)
+
+To deploy to GitHub Pages from GitHub repository, the following steps must be followed:
+
+1. Log into GitHub
+2. From the list of repositories on the screen, select **OndrejValla/z-o-photo-album**
+3. From the menu items near the top of the page, select **Settings**
+4. Scroll down to the **GitHub Pages** section
+5. Under **Source** click the drop-down menu labelled **None** and select **main**
+6. In the **folder** drop-down, the **/root** folder is automatically selected
+7. Click on **Save**
+8. The project is now deployed and the URL of the website is available in the GitHub Pages section
+
+### How to run this project locally
+
+To clone this project into Gitpod you will need:
+
+1. A Github account
+2. Use the Chrome browser
+
+Then follow these steps:
+
+1. Install the Gitpod Browser Extension for Chrome
+2. After installation, restart the browser
+3. Log into Gitpod with your gitpod account
+4. Navigate to the Project GitHub repository
+5. Click the green GitPod button in the top right corner of the repository
+6. This will trigger a new gitpod workspace to be created
+
+To work on the project code:
+
+1. Follow this link to the [GitHub repository](https://github.com/OndrejValla/z-o-photo-album)
+2. Click on the Code button
+3. In the drop-down, copy the URL that you see in the HTTPs tab
+4. In your local IDE, open the terminal
+5. Change the current working directory to the location where you want the cloned directory to be made
+6. Type git clone and paste the URL you copied in Step 3
+7. Press Enter. Your local clone will be created.
+  
+   That is all.
+
+---
+
+## Credits
+
+### Used code and INSPIRATIONS
+I appreciate the work of every web developer whose code I was able to find by Google search. THANK YOU ALL 
+
+- [Mr Matt Rudge](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/?child=first) How to set up EmailJS.
+- [Mr Matt Rudge](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/3b2af8636ea54a4d9dc45126f7498633/) Using Google Maps API.
+- [Mr Niel Mc Ewen](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/4cedec781bcf4b94a50e743a260b4e9c/?child=first) How to use jQuery.
+- [Mr Tyler Potts](https://www.youtube.com/watch?v=QGVXmoZWZuw) Youtube video on How to flip cards.
+- [Google Maps Platform team](https://developers.google.com/maps) Great content in Tutorials, Guides and Samples sections.
+- [W3resource.com](https://www.w3resource.com/javascript-exercises/javascript-dom-exercise-11.php) Great content on How to display Random images.
+- [w3schools.com](https://www.w3schools.com/js/tryit.asp?filename=tryjs_elseif) How to adjust data based on the time of the day. And much more.
+- [Stackoverflow.com](https://stackoverflow.com/questions/37525339/change-submit-button-text-after-form-submit) Changing the inner text of the submit button. And much more.
+- [Mr Nishant Kumar, my mentor](https://github.com/nishant8BITS) For the fantastic motivation and support. Nishant suggested me to tidy up my jQuery code of gallery.html. Thank you Nishant!
 
 
+### Media
+- All photographs used in this project are own by us - my wife Zuzana and myself Ondrej.
 
+### Acknowledgements
 
+- Another **BIG** Thanks goes once again to my lovely wife.
+- I was again inspired by **my wife**, as she told me, that she would like to have a gallery website with our photographs.
+- **BIG THANK YOU** for my Mentor, **Nishant Kumar**, for his great suggestions during our first call. Unfortunatelly I was not able to implement all those fantastic ideas.
+- The Code Institute for creating this learning program. Such a great oportunity to learn how to code. 
 
-
+### Thank You all!
 
 
 
