@@ -54,7 +54,7 @@ function ourGreeting() {
 // Failed message function
 function failedMessage() {
     document.getElementById("interaction-h3").innerHTML = "There was a problem.<br>Your message was not send.";
-    document.getElementById("interaction-p").innerHTML = "Please try again, or contact us directly on <br> ondrej.valla@gmail.com <br> Thank you.";
+    document.getElementById("interaction-p").innerHTML = "Please try again, or contact us directly at <br> ondrej.valla@gmail.com <br> Thank you.";
 }
 
 // Smiling icons color change
