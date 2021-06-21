@@ -388,9 +388,9 @@ body {
 
 /* --------- Footer */
 footer {
-    min-height: 40px;
+    min-height: 70px;
     color: #f3f1f1b3;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
 #footer-bottom {
@@ -399,7 +399,7 @@ footer {
 }
 
 .footer-sections {
-    min-height: 30px;
+    min-height: 60px;
     min-width: 20%;
     background-color: whitesmoke;
     font-size: 100%;
@@ -411,7 +411,7 @@ footer {
 }
 
 .footer-sections-pink {
-    min-height: 30px;
+    min-height: 60px;
     min-width: 20%;
     background-color: rgb(228, 161, 161);
     font-size: 100%;
@@ -423,7 +423,7 @@ footer {
 }
 
 .footer-sections-blue {
-    min-height: 30px;
+    min-height: 60px;
     min-width: 20%;
     background-color: rgb(23, 75, 126);
     font-size: 100%;
@@ -444,11 +444,16 @@ footer {
 }
 
 footer h6 {
+    font-size: 20px;
     color: black;
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .footer-sections a {
+    font-size: 20px;
     text-decoration: none;
+    margin-bottom: 10px;
 }
 
 .footer-socials:hover {
