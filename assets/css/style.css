@@ -126,13 +126,11 @@ body {
     overflow: hidden;
 }
 
-
 .card-front {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 
 .card-back {
     transform: rotateY(180deg);
@@ -295,7 +293,6 @@ body {
     color: whitesmoke;
 }
 
-
 @media only screen and (max-width: 600px) {
     .gallery-button {
         margin-left: 3px;
@@ -343,7 +340,6 @@ body {
     display: inline-block;
     font-size: 32px;
 }
-
 
 /* ---------Random picture page  */
 .random-picture-container {
@@ -436,7 +432,6 @@ footer {
     margin-top: auto;
     margin-bottom: auto;
 }
-
 
 .footer-socials {
     color: #3b3b3bb3;

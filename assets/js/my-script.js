@@ -2,20 +2,20 @@ function bodyLoaded() {
     console.log('Body has loaded!');
 }
 
-
 // Zuzana Ondrej Logo
 $(".fa-heart").mouseenter(function () {
-    $(".fa-heart").css("color", "red")
+    $(".fa-heart").css("color", "red");
 });
 
 $(".fa-heart").mouseleave(function () {
-    $(".fa-heart").css("color", "black")
+    $(".fa-heart").css("color", "black");
 });
 
+/* For following usage of jQurey I was inspired by Code Institute Mr Niel Mc Ewen
+AND BIG THANK YOU TO MY MENTOR NISHANT KUMAR WHO SHOWED ME HOW TO TIDY UP THIS CODE
+*/
 
-
-
-// Zuzana-style and Ondrej-style buttons
+//Zuzana-style and Ondrej-style buttons //
 $("#zuzana-button").on("click", function () {
     $("body").removeClass('body-blue').addClass('body-pink');
     $(".intro-p").html("<p>Pink is Zuzana's favourite colour.</p>");
@@ -24,7 +24,6 @@ $("#zuzana-button").on("click", function () {
     $(".gallery-window-row").removeClass('gallery-window-row-blue').addClass('gallery-window-row-pink');
     $(".footer-sections").removeClass('footer-sections-blue').addClass('footer-sections-pink');
 });
-
 
 $("#ondrej-button").on("click", function () {
     $("body").removeClass('body-pink').addClass('body-blue');
@@ -123,8 +122,8 @@ card.forEach((card) => {
     });
 });
 
-// Inspired by Mr Matt Rudge
-// Google Maps API followed instructions of Google Maps Tutorials
+/* Inspired by Mr Matt Rudge
+ Google Maps API followed instructions of Google Maps Tutorials */
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map-window"), {
         zoom: 1,
@@ -174,23 +173,22 @@ var locations = [{
     }
 ];
 
-
-//random.html
+/*random.html
+ display random image function found on
+ https://www.w3resource.com/javascript-exercises/javascript-dom-exercise-11.php */
 
 $(".star-yellow").mouseenter(function () {
-    $(".star-yellow").css("color", "gold")
+    $(".star-yellow").css("color", "gold");
 });
 
 $(".star-yellow").mouseleave(function () {
-    $(".star-yellow").css("color", "goldenrod")
+    $(".star-yellow").css("color", "goldenrod");
 });
 
 $(".star-white").click(function () {
-    $(".star-white").css("color", "white")
+    $(".star-white").css("color", "white");
 });
 
-// display random image
-// https://www.w3resource.com/javascript-exercises/javascript-dom-exercise-11.php
 function display_random_image() {
     var theImages = [{
         src: "assets/images/random/random-1.jpg",
@@ -253,13 +251,11 @@ function display_random_image() {
     // create random image number
     function getRandomInt(min, max) {
         //  return Math.floor(Math.random() * (max - min + 1)) + min;
-
         imn = Math.floor(Math.random() * (max - min + 1)) + min;
         return preBuffer[imn];
     }
 
     // 0 is first image,   preBuffer.length - 1) is  last image
-
     var newImage = getRandomInt(0, preBuffer.length - 1);
 
     // remove the previous images

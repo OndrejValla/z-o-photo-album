@@ -1,5 +1,5 @@
-// Contact form
-// Inspired by Mr Matt Rudge
+/* Contact form
+Inspired by Mr Matt Rudge */
 console.log("Contact Form Loaded");
 
 function sendMail(contactForm) {
@@ -33,8 +33,8 @@ $("#submit-button").click(function (event) {
     }, 2000);
 });
 
-// Greeting based on the time of the day.
-// https://www.w3schools.com/js/tryit.asp?filename=tryjs_elseif
+/* Greeting based on the time of the day.
+ https://www.w3schools.com/js/tryit.asp?filename=tryjs_elseif */
 function ourGreeting() {
     var comunication;
     var time = new Date().getHours();
@@ -57,9 +57,9 @@ function failedMessage() {
     document.getElementById("interaction-p").innerHTML = "Please try again, or contact us directly at <br> ondrej.valla@gmail.com <br> Thank you.";
 }
 
-// Smiling icons color change
-// Inspired by Code Institute 
-// JavaScript & the DOM  Handling DOM Events  Keyboard Events
+/* Smiling icons color change
+ Inspired by Code Institute 
+ JavaScript & the DOM  Handling DOM Events  Keyboard Events */
 function pressedKeys(event) {
     let pressedBeam = document.getElementById('pressed-beam');
     let upSmile = document.getElementById('up-smile');

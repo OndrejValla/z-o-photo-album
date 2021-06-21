@@ -8,7 +8,7 @@
 
 
 #### This website was created as my Second Milestone project with Code Institute. 
-As mentioned in the intro of the landing page, my wife Zuzana and I enjoy going on holiday. However as there are restrictions for traveling at the moment (year 2021) our way to get to the holiday mood again is by looking at our holiday pictures and then enjoy the sunshine in the garden. We always go through folders on our computer. Zuzana was suggesting many times, that it would be great to have one gallery page. That is why I decided to create this website as my MS2 project. 
+As mentioned in the intro of the landing page, my wife Zuzana and I enjoy going on holiday. However as there are restrictions for traveling at the moment (current year 2021) our way to get to the holiday mood again is by looking at our holiday pictures and then enjoy the sunshine in the garden. We always go through folders on our computer. Zuzana was suggesting many times, that it would be great to have one gallery page. That is why I decided to create this website as my MS2 project. 
 
 
 ## Table of Contents
@@ -39,7 +39,7 @@ Even though it is very likely, that the main two users of this website will be Z
 
 - User story 1: I like to browse through these galleries easily whether on my PC or mobile.
 - User story 2: I like to see each destination separately if possible.
-- User story 3: I like when websites are changing colors etc.
+- User story 3: I like it when websites are changing colors etc.
 - User story 4: Would be great if I could contact Zuzana and Ondrej.
 - User story 5: I would like to see Zuzana and Ondrej's social media.
 
@@ -105,7 +105,7 @@ I was aiming to create simple gallery website with some of our holiday pictures.
     - All images used on this website were taken by my wife Zuzana Valla or myself Ondrej Valla.
 
 - #### Colours
-    - To choose colours for this website was quite easy. My wife's favourite colour is pink and mine is blue.
+    - Choosing colours for this website was quite easy. My wife's favourite colour is pink and mine is blue.
     - I was aiming to use a colour theme to match   
     - The main body background colour after page loads is a basic, darker shade of white rgba(234, 237, 238, 0.952).
     - Fonts colour is dark color: #3b3b3bb3.
@@ -122,22 +122,22 @@ I was aiming to create simple gallery website with some of our holiday pictures.
 ## Features
 
 - #### Navigation bar
-    - Navbar on the top of the page is probably the most traditional and the most user friendly one.
+    - Navbar on the top of the page is probably the most traditional and the most user-friendly one.
     - On a mobile or tablet, the navbar is collapsed to the hamburger icon which expands when clicked
-    - Users can click on the navbar brand to take them back to the home-page.
-    - In Gallery page the navbar features the dropdown menu with six links to individual destination galleries.
+    - Users can click on the navbar brand to take them back to the home page.
+    - In the Gallery page, the navbar features the dropdown menu with six links to individual destination galleries.
 
 - #### Home page
-    - Style buttons, Zuzana (pink) Ondrej (blue) which change the color theme of the home page.
+    - Style buttons, Zuzana (pink) Ondrej (blue) which change the colour theme of the home page.
     - Intro text, which changes from general intro to Zuzana's intro and Ondrej's intro, based on the style button clicked.
     - Carousel slideshow with six pictures of six main destinations of this website.
     - Google Maps API, currently just a basic version, with six A B C D E F map drop points, including two clusters.
     - Six flippable cards of six A B C D E F destinations. Each card has the map drop point, name of the destination/gallery, picture of Zuzana and Ondrej from the destination and description of the holiday. 
-    - When card clicked, flip function does activate and card flips.
+    - When the card is clicked, the flip function does activate and the card flips.
     - Each flipped card has the button to the gallery page and a carousel with three pictures slideshow.
  
 - #### Gallery page
-    - Style buttons, Zuzana (pink) Ondrej (blue) which change the color theme of the home page.
+    - Style buttons, Zuzana (pink) Ondrej (blue) which change the colour theme of the home page.
     - Six individual destination buttons for each gallery.
     - Bordered window with the carousel slideshow of clicked destination. 
     - User can change between pink and blue colour background while watching images. 
@@ -148,11 +148,11 @@ I was aiming to create simple gallery website with some of our holiday pictures.
     - If the message is not sent, the introduction text change to: There was a problem. Your message was not sent. Please try again, or contact us directly at ondrej.valla@gmail.com Thank you.
     - Send button changing to Sending... when sending a message.
     - Alerts pop up boxes when the message is successful and when is unsuccessful.
-    - Fontawesome icons: Two smile icons and one heart icon changing color when a message is being typed.
+    - Fontawesome icons: Two smile icons and one heart icon changing colour when a message is being typed.
     - The message does not send as long as all the input fields are filled up.
 
 - #### Moments to remember page
-    - This page features random image function. After the star is clicked, the star changes the color and a random image appears. If clicked again, another random image appears. 
+    - This page features a random image function. After the star is clicked, the star changes the color and a random image appears. If clicked again, another random image appears. 
 
 - #### Future Improvements
     - It would be great to keep the selected theme applied for all pages once style buttons clicked.
@@ -171,7 +171,7 @@ I was aiming to create simple gallery website with some of our holiday pictures.
 
 #### Libraries:
 - [Balsamiq](https://balsamiq.com/) for the wireframes.
-- [Bootstrap 4.2.1](https://getbootstrap.com/) to use the grid system, carousels, pre-formatted features like buttons, collapsible navbar etc.
+- [Bootstrap 4.2.1](https://getbootstrap.com/) to use the grid system, carousels, pre-formatted features like buttons, collapsible navbar, etc.
 - [FontAwesome](https://fontawesome.com/) for icons.
 - [Google Fonts](https://fonts.google.com/) for fonts "Merriweather".
 - [Favicon](https://favicon.io/) for the awesome icon on the browser tab.
@@ -182,12 +182,12 @@ I was aiming to create simple gallery website with some of our holiday pictures.
 - [Gitpod](https://gitpod.io/) - Used as the primary software for development and to push and commit code to Gihub.
 
 #### Other:
-- [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning knowledge.
+- [Code Institute Course Content](https://courses.codeinstitute.net/) - Currently my primary source of learning knowledge.
 - [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any bugs or layout differences.
 - [W3Schools](https://www.w3schools.com/) - used as a general resource for HTML, CSS , JavaScript coding tips.
 - [Stackoverflow](https://stackoverflow.com) - used as a general resource for HTML, CSS , JavaScript coding tips.
 - [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices. 
-- [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
+- [Google Mobile-Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
 - [Google Maps](https://developers.google.com/maps) - Used for Google Maps APIs 
 - [Emailjs](https://dashboard.emailjs.com/)- Email service used to connect the contact form with my personal email.
 - [Google](https://www.google.co.uk/) and [Youtube](https://www.youtube.com/) - Used for lots of general research.
@@ -264,11 +264,11 @@ Fourth tested page has a warning, however no major issue. The reason is that H4 
 [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 ![Image](assets/images/readme-files/style.css-checked.png)
 
-[Lighthouse Validator Mobile Results]
+- Lighthouse Validator Mobile Results
 ![Image](assets/images/readme-files/light-house-mobile.png)
 Lower performance because of the size of the images in flipping cards.
 
-[Lighthouse Validator Desktop Results]
+- Lighthouse Validator Desktop Results
 ![Image](assets/images/readme-files/light-house-desktop.png)
 
 
@@ -278,29 +278,29 @@ Lower performance because of the size of the images in flipping cards.
 - To make sure the Forms were functioning as they should, I tested each of the forms on different devices and browsers. 
   This was done by clicking the Submit form button without any text in inputs to make sure it resulted
   in the desired response of 'Please fill out this field'. Once correctly filled, being sent to my email ondrej.valla@gmail.com via Emailjs.com.
-- Relevant text (greeting function) displays, depends on the time of the day and wether the message was sent succesfully or unsuccessfully.  
+- Relevant text (greeting function) displays, depends on the time of the day and whether the message was sent successfully or unsuccessfully.  
 
 #### Testing links
 - Internal links have been checked so when clicked the user is directed to the desired location.
-- External links have been checked to open in new tab and at correct destination.
+- External links have been checked to open in a new tab and at the correct destination.
 
 #### Testing Users Stories
 
 - User story 1: I like to browse through these galleries easily whether on my PC or mobile.
 
-    - Website works on most of the PC web browsers. This website is also mobile friendly, responsive thanks to the Bootstrap grid system.
+    - Website works on most PC web browsers. This website is also mobile-friendly, responsive thanks to the Bootstrap grid system.
 
 - User story 2: I like to see each destination separately if possible.
  
-    - In the Gallery page, there are six individual buttons each linked to own destination slideshow.
+    - On the Gallery page, there are six individual buttons each linked to their own destination slideshow.
 
-- User story 3: I like when websites are changing colors etc.
+- User story 3: I like it when websites are changing colors etc.
 
-    - For little bit of interaction there are buttons change the colour theme of the selected page and buttons for showing/hidding galleries.
+    - For a little bit of interaction there are buttons that change the color theme of the selected page and buttons for showing/hiding galleries.
 
 - User story 4: Would be great if I could contact Zuzana and Ondrej.
 
-    - That is absolutely fine. We will be very happy to read message from anyone who see this website. You can contact us via social medias, which are linked in the footer, or via the contact us page form, which will send your message directly to our personal email.
+    - That is absolutely fine. We will be very happy to read the message from anyone who sees this website. You can contact us via social media, which are linked in the footer, or via the contact us page form, which will send your message directly to our personal email.
 
 - User story 5: I would like to see Zuzana and Ondrej's social media. 
 
@@ -318,7 +318,7 @@ To deploy to GitHub Pages from GitHub repository, the following steps must be fo
 2. From the list of repositories on the screen, select **OndrejValla/z-o-photo-album**
 3. From the menu items near the top of the page, select **Settings**
 4. Scroll down to the **GitHub Pages** section
-5. Under **Source** click the drop-down menu labelled **None** and select **main**
+5. Under **Source** click the drop-down menu labeled **None** and select **main**
 6. In the **folder** drop-down, the **/root** folder is automatically selected
 7. Click on **Save**
 8. The project is now deployed and the URL of the website is available in the GitHub Pages section
@@ -358,15 +358,15 @@ To work on the project code:
 ### Used code and INSPIRATIONS
 I appreciate the work of every web developer whose code I was able to find by Google search. THANK YOU ALL 
 
-- [Mr Matt Rudge](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/?child=first) How to set up EmailJS.
-- [Mr Matt Rudge](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/3b2af8636ea54a4d9dc45126f7498633/) Using Google Maps API.
-- [Mr Niel Mc Ewen](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/4cedec781bcf4b94a50e743a260b4e9c/?child=first) How to use jQuery.
-- [Mr Tyler Potts](https://www.youtube.com/watch?v=QGVXmoZWZuw) Youtube video on How to flip cards.
+- [Mr. Matt Rudge](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/?child=first) How to set up EmailJS.
+- [Mr. Matt Rudge](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/3b2af8636ea54a4d9dc45126f7498633/) Using Google Maps API.
+- [Mr. Niel Mc Ewen](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/4cedec781bcf4b94a50e743a260b4e9c/?child=first) How to use jQuery.
+- [Mr. Tyler Potts](https://www.youtube.com/watch?v=QGVXmoZWZuw) Youtube video on How to flip cards.
 - [Google Maps Platform team](https://developers.google.com/maps) Great content in Tutorials, Guides and Samples sections.
 - [W3resource.com](https://www.w3resource.com/javascript-exercises/javascript-dom-exercise-11.php) Great content on How to display Random images.
 - [w3schools.com](https://www.w3schools.com/js/tryit.asp?filename=tryjs_elseif) How to adjust data based on the time of the day. And much more.
 - [Stackoverflow.com](https://stackoverflow.com/questions/37525339/change-submit-button-text-after-form-submit) Changing the inner text of the submit button. And much more.
-- [Mr Nishant Kumar, my mentor](https://github.com/nishant8BITS) For the fantastic motivation and support. Nishant suggested me to tidy up my jQuery code of gallery.html. Thank you Nishant!
+- [Mr. Nishant Kumar, my mentor](https://github.com/nishant8BITS) For the fantastic motivation and support. Nishant suggested tidying up my jQuery code of gallery.html. Thank you Nishant!
 
 
 ### Media
@@ -377,7 +377,7 @@ I appreciate the work of every web developer whose code I was able to find by Go
 - Another **BIG** Thanks goes once again to my lovely wife.
 - I was again inspired by **my wife**, as she told me, that she would like to have a gallery website with our photographs.
 - **BIG THANK YOU** for my Mentor, **Nishant Kumar**, for his great suggestions during our first call. Unfortunatelly I was not able to implement all those fantastic ideas.
-- The Code Institute for creating this learning program. Such a great oportunity to learn how to code. 
+- The Code Institute for creating this learning program. Such a great opportunity to learn how to code. 
 
 ### Thank You all!
 
