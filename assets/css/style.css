@@ -239,10 +239,10 @@ body {
 }
 
 /* ---------GALLERY PAGE */
+
 .gallery-window-row {
     width: 100%;
-    min-height: 200px;
-    min-height: 500px;
+    min-height: 400px;
     background-color: rgb(211, 208, 208);
     text-align: center;
     border: 5px solid;
@@ -330,6 +330,10 @@ body {
 
 #emailaddress {
     min-height: 60px;
+}
+
+#contact-form-container {
+    min-height: 800px;
 }
 
 .contact-form-row {
@@ -420,18 +424,19 @@ body {
 
 /* --------- Footer */
 footer {
-    min-height: 60px;
+    height: 50px;
     color: #f3f1f1b3;
     margin-top: 10px;
 }
 
 #footer-bottom {
-    position: fixed;
+    position: relative;
     bottom: 1px;
+    margin-top: 60px;
 }
 
 .footer-sections {
-    min-height: 55px;
+    min-height: 45px;
     min-width: 20%;
     background-color: whitesmoke;
     font-size: 100%;
@@ -443,7 +448,7 @@ footer {
 }
 
 .footer-sections-pink {
-    min-height: 60px;
+    min-height: 45px;
     min-width: 20%;
     background-color: rgb(228, 161, 161);
     font-size: 100%;
@@ -455,7 +460,7 @@ footer {
 }
 
 .footer-sections-blue {
-    min-height: 60px;
+    min-height: 45px;
     min-width: 20%;
     background-color: rgb(23, 75, 126);
     font-size: 100%;
