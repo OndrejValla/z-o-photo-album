@@ -326,7 +326,7 @@ Lower performance because of the size of the images in flipping cards.
 
 ![IMAGE](assets/images/readme-files/user-story-6-1.jpg)
 
-![IMAGE](assets/images/readme-files/user-story-6-3.gif) ![IMAGE](assets/images/readme-files/user-story-6-4.gif)
+![IMAGE](assets/images/readme-files/user-story-6-3.gif) 
 
 ---
 
@@ -388,7 +388,6 @@ I appreciate the work of every web developer whose code I was able to find by Go
 - [W3resource.com](https://www.w3resource.com/javascript-exercises/javascript-dom-exercise-11.php) Great content on How to display Random images.
 - [w3schools.com](https://www.w3schools.com/js/tryit.asp?filename=tryjs_elseif) How to adjust data based on the time of the day. And much more.
 - [Stackoverflow.com](https://stackoverflow.com/questions/37525339/change-submit-button-text-after-form-submit) Changing the inner text of the submit button. And much more.
-- [Mr. Nishant Kumar, my mentor](https://github.com/nishant8BITS) For the fantastic motivation and support. Nishant suggested tidying up my jQuery code of gallery.html. Thank you Nishant!
 
 
 ### Media
@@ -398,7 +397,7 @@ I appreciate the work of every web developer whose code I was able to find by Go
 
 - Another **BIG** Thanks goes once again to my lovely wife.
 - I was again inspired by **my wife**, as she told me, that she would like to have a gallery website with our photographs.
-- **BIG THANK YOU** for my Mentor, **Nishant Kumar**, for his great suggestions during our first call. Unfortunatelly I was not able to implement all those fantastic ideas.
+- **BIG THANK YOU** to my Mentor, **Nishant Kumar** [Nishant Kumar Github](https://github.com/nishant8BITS), for his great suggestions during our first call. Unfortunatelly I was not able to implement all those fantastic ideas.
 - The Code Institute for creating this learning program. Such a great opportunity to learn how to code. 
 
 ### Thank You all!
