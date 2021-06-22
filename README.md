@@ -321,13 +321,12 @@ Lower performance because of the size of the images in flipping cards.
     - As mentioned above, please find the social media links in the footer, have a look and feel free to contact us.
 
 ---
-- User story 6: I Ondrej Valla, would also like to use this website on the entertainment screen in my car, when I am driving with my wife, for a better car atmosphere.
-    - In my car, I have an Android unit with Google Chrome browser, therefore this website is wrunning the same way as on any tablet device. For this purpose, I have also created an additional page with the carousel slideshow of all images, for long-lasting presentation.
+- User story 6: I Ondrej Valla, would also like to use this website on the entertainment screen in my car when I am driving with my wife, for a better car atmosphere.
+    - In my car, I have an Android unit with Google Chrome browser, therefore this website is wrunning the same way as on any tablet device.<br> For this purpose, I have also created an additional page with the carousel slideshow of all images, for long-lasting presentation. To access this slideshow, just use the link [slideshow.html](https://ondrejvalla.github.io/z-o-photo-album/slideshow.html)
 
 ![IMAGE](assets/images/readme-files/user-story-6-1.jpg)
-![IMAGE](assets/images/readme-files/user-story-6-2.jpg)
-![IMAGE](assets/images/readme-files/user-story-6-3.gif)
-![IMAGE](assets/images/readme-files/user-story-6-4.gif)
+
+![IMAGE](assets/images/readme-files/user-story-6-3.gif) ![IMAGE](assets/images/readme-files/user-story-6-4.gif)
 
 ---
 
