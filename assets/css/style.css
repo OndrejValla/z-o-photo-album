@@ -402,7 +402,8 @@ body {
 }
 
 #randomdiv {
-    min-height: 500px;
+    max-width: 100%;
+    height: auto;
     text-align: center;
     justify-content: center;
     overflow: hidden;
@@ -420,6 +421,10 @@ body {
 
 .arrow {
     margin-right: 25px;
+}
+
+.invisible {
+    color: rgb(23, 75, 126);
 }
 
 /* --------- Footer */
