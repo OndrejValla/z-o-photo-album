@@ -235,6 +235,10 @@ function display_random_image() {
         width: "396",
         height: "528"
     }, {
+        src: "assets/images/random/random-22.jpg",
+        width: "396",
+        height: "528"
+    }, {
         src: "assets/images/random/random-20.jpg",
         width: "384",
         height: "512"

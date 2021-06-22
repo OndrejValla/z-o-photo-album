@@ -246,14 +246,21 @@ I used the following validators to check my HTML and CSS code: (https://validato
 
 Three tested pages had shown No errors or warnings.
 
+
 - [Home Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fondrejvalla.github.io%2Fz-o-photo-album%2Findex.html)
 ![Image](assets/images/readme-files/index.html-checked.png)
+
+
 
 - [Gallery Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fondrejvalla.github.io%2Fz-o-photo-album%2Fgallery.html)
 ![Image](assets/images/readme-files/gallery.html-checked.png)
 
+
+
 - [Contact Us Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fondrejvalla.github.io%2Fz-o-photo-album%2Fcontact.html)
 ![Image](assets/images/readme-files/contact.html-checked.png)
+
+
 
 Fourth tested page has a warning, however no major issue. The reason is that H4 heading only contains font awesome icon.
 - [Moments to remember Page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fondrejvalla.github.io%2Fz-o-photo-album%2Frandom.html)
@@ -264,9 +271,13 @@ Fourth tested page has a warning, however no major issue. The reason is that H4 
 [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
 ![Image](assets/images/readme-files/style.css-checked.png)
 
+
+
 - Lighthouse Validator Mobile Results
 ![Image](assets/images/readme-files/light-house-mobile.png)
 Lower performance because of the size of the images in flipping cards.
+
+
 
 - Lighthouse Validator Desktop Results
 ![Image](assets/images/readme-files/light-house-desktop.png)
@@ -287,23 +298,25 @@ Lower performance because of the size of the images in flipping cards.
 #### Testing Users Stories
 
 - User story 1: I like to browse through these galleries easily whether on my PC or mobile.
-
     - Website works on most PC web browsers. This website is also mobile-friendly, responsive thanks to the Bootstrap grid system.
 
+
 - User story 2: I like to see each destination separately if possible.
- 
     - On the Gallery page, there are six individual buttons each linked to their own destination slideshow.
+![IMAGE](assets/images/readme-files/user-story-2.png)
+
 
 - User story 3: I like it when websites are changing colors etc.
-
     - For a little bit of interaction there are buttons that change the color theme of the selected page and buttons for showing/hiding galleries.
+![IMAGE](assets/images/readme-files/user-story-3.png)
+
 
 - User story 4: Would be great if I could contact Zuzana and Ondrej.
-
     - That is absolutely fine. We will be very happy to read the message from anyone who sees this website. You can contact us via social media, which are linked in the footer, or via the contact us page form, which will send your message directly to our personal email.
+![IMAGE](assets/images/readme-files/user-story-4.png)
 
-- User story 5: I would like to see Zuzana and Ondrej's social media. 
 
+- User story 5: I would like to see Zuzana and Ondrej's social media.
     - As mentioned above, please find the social media links in the footer, have a look and feel free to contact us.
 
 ---
