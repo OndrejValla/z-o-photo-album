@@ -148,7 +148,6 @@ body {
 }
 
 .card-front {
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -341,6 +340,10 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.btn-md {
+    margin: 3px;
 }
 
 @media only screen and (max-width: 600px) {
