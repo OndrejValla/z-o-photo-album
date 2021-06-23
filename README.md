@@ -8,7 +8,7 @@
 
 
 #### This website was created as my Second Milestone project with Code Institute. 
-As mentioned in the intro of the landing page, my wife Zuzana and I enjoy going on holiday. However as there are restrictions for traveling at the moment (current year 2021) our way to get to the holiday mood again is by looking at our holiday pictures and then enjoy the sunshine in the garden. We always go through folders on our computer. Zuzana was suggesting many times, that it would be great to have one gallery page. That is why I decided to create this website as my MS2 project. 
+As mentioned in the intro of the landing page, my wife Zuzana and I enjoy going on holiday. However as there are restrictions for traveling at the moment (current year 2021) our way to get to the holiday mood again is by looking at our holiday pictures and then enjoy the sunshine in the garden. We always go through folders on our computer. Zuzana was suggesting many times, that it would be great to have holiday pictures in one place. That is why I decided to create this gallery website as my MS2 project. 
 
 
 ## Table of Contents
@@ -52,7 +52,7 @@ To enjoy a website like this, where the main focus is the Gallery of holidays, t
 
 ### The Structure Plane
 
-#### This website consist of four pages: index.html, gallery.html, contact.html and random.html.
+#### This website consist of five pages: index.html, gallery.html, contact.html, random.html and slideshow.html.
 
 - Home page / Landing page (index.html) contains: 
 1. Top Navbar changing to burger nav on smaller devices. 
@@ -63,12 +63,14 @@ To enjoy a website like this, where the main focus is the Gallery of holidays, t
 6. Six flipping cards with A B C D E F destinations. Each card has a front picture and after flipped three slide pictures + gallery link button.
 7. The footer - Home Gallery Contact Us and Social links buttons.
 
+
 - Gallery page (gallery.html) contains:
 1. Top Navbar with a dropdown of all six destinations, changing to burger nav on smaller devices. 
 2. Two buttons: Zuzana-pink Ondrej-blue which changes the color theme of the current page.
 3. Six horizontally laid buttons for each destination.
 4. A carousel: on load, all destinations slide show, after clicking the individual destination button, the destination slide show start.
 5. The footer - Home Gallery Contact Us and Social links buttons.
+
 
 - Contact Us page (contact.html) contains:
 1. Top Navbar changing to burger nav on smaller devices.
@@ -77,11 +79,16 @@ To enjoy a website like this, where the main focus is the Gallery of holidays, t
 4. Two smiling faces and heart from https://fontawesome.com. Little feature changing color while typing the message, by using keydown, keypress and keyup functions.
 5. The footer - Home Gallery Contact Us and Social links buttons.
 
+
 - Moments to remember... page (random.html) contains:
 1. Top Navbar changing to burger nav on smaller devices.
 2. Heading: Click *star* for the random image
 3. Blue window with a yellow star. After the yellow star is clicked, a random picture display. 
 4. The footer - Home Gallery Contact Us and Social links buttons.
+
+
+- Slideshow page (slideshow.html) *Created FOR MY USE, please see **User story 6** for more details. Thanks.
+  I created this page FOR MY USE. It can be accessed by direct link [https://ondrejvalla.github.io/z-o-photo-album/slideshow.html](https://ondrejvalla.github.io/z-o-photo-album/slideshow.html) or by clicking the hidden button located under random picture, in Moments to remember page (random.html).
 
 ### Wireframes:
  
@@ -149,7 +156,7 @@ I was aiming to create simple gallery website with some of our holiday pictures.
     - If the message is not sent, the introduction text change to: There was a problem. Your message was not sent. Please try again, or contact us directly at ondrej.valla@gmail.com Thank you.
     - Send button changing to Sending... when sending a message.
     - Alerts pop up boxes when the message is successful and when is unsuccessful.
-    - Fontawesome icons: Two smile icons and one heart icon changing colour when a message is being typed.
+    - Fontawesome icons: Female icon, Male icon one heart icon changing colour when a message is being typed.
     - The message does not send as long as all the input fields are filled up.
 
 - #### Moments to remember page
@@ -239,6 +246,7 @@ Tested on following tablets:
 7. Testing the random image star button
     - Result: Random images are appearing in random order, once the star button is clicked.
 
+#### Of course I have done lots of little tests and adjustments, try and errors while creating this website.
 
 #### Testing HTML and CSS
 I used the following validators to check my HTML and CSS code: (https://validator.w3.org/) and (https://jigsaw.w3.org/css-validator/)
@@ -321,8 +329,9 @@ Lower performance because of the size of the images in flipping cards.
     - As mentioned above, please find the social media links in the footer, have a look and feel free to contact us.
 
 ---
-- User story 6: I Ondrej Valla, would also like to use this website on the entertainment screen in my car when I am driving with my wife, for a better car atmosphere.
-    - In my car, I have an Android unit with Google Chrome browser, therefore this website is wrunning the same way as on any tablet device.<br> For this purpose, I have also created an additional page with the carousel slideshow of all images, for long-lasting presentation. To access this slideshow, just use the link [slideshow.html](https://ondrejvalla.github.io/z-o-photo-album/slideshow.html)
+- User story 6: I Ondrej Valla, would also like to use this website on the entertainment screen in my car when I am driving with my wife, for a better atmosphere / ambient.
+    - In my car, I have an Android unit with Google Chrome browser, therefore this website is running the same way as on any tablet device.
+    - For this purpose, I have also created an additional page with the carousel slideshow of all website images. To access this slideshow, I just use the link [https://ondrejvalla.github.io/z-o-photo-album/slideshow.html](https://ondrejvalla.github.io/z-o-photo-album/slideshow.html) or click the hidden button in random.html which is right under the random image displayed. This button has the same colour as the background, just simply because is probably for my use only. Originally it was not planned.
 
 ![IMAGE](assets/images/readme-files/user-story-6-1.jpg)
 
@@ -380,6 +389,7 @@ To work on the project code:
 ### Used code and INSPIRATIONS
 I appreciate the work of every web developer whose code I was able to find by Google search. THANK YOU ALL 
 
+- [Mr. Nishant Kumar](https://github.com/nishant8BITS) for his great suggestions during our first call. Unfortunatelly I was not able to implement all those fantastic ideas.
 - [Mr. Matt Rudge](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/e4710f80cdf34bffbd607bc102482d5c/?child=first) How to set up EmailJS.
 - [Mr. Matt Rudge](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/03d3f6524ad249d9b33e3336d156dfd0/3b2af8636ea54a4d9dc45126f7498633/) Using Google Maps API.
 - [Mr. Niel Mc Ewen](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+IFD101+2017_T3/courseware/b99394c03fb342ed96e82caa5adef426/4cedec781bcf4b94a50e743a260b4e9c/?child=first) How to use jQuery.
@@ -395,10 +405,10 @@ I appreciate the work of every web developer whose code I was able to find by Go
 
 ### Acknowledgements
 
-- Another **BIG** Thanks goes once again to my lovely wife.
-- I was again inspired by **my wife**, as she told me, that she would like to have a gallery website with our photographs.
-- **BIG THANK YOU** to my Mentor, **Nishant Kumar** [Nishant Kumar Github](https://github.com/nishant8BITS), for his great suggestions during our first call. Unfortunatelly I was not able to implement all those fantastic ideas.
-- The Code Institute for creating this learning program. Such a great opportunity to learn how to code. 
+- **BIG Thanks** goes once again to my lovely wife.
+ I was again inspired by **my wife**, as she told me, that she would like to have a gallery website with our photographs.
+- **BIG THANK YOU** to my Mentor, **Nishant Kumar** [Nishant Kumar Github](https://github.com/nishant8BITS), for all his support, motivation and understanding.
+- **The Code Institute** for creating this learning program. Such a great opportunity to learn how to code. 
 
 ### Thank You all!
 
