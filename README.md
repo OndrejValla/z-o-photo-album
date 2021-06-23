@@ -1,14 +1,14 @@
-# Zuzana and Ondrej photos
+# Z+O Photos
 
 ![IMAGE](assets/images/readme-files/responsive.png)
 
-## Welcome to our photos website
+## Welcome to Zuzana and Ondrej's photo gallery website!
 
 ### Please [click this link](https://ondrejvalla.github.io/z-o-photo-album/index.html) if you like to see the live website.
 
 
 #### This website was created as my Second Milestone project with Code Institute. 
-As mentioned in the intro of the landing page, my wife Zuzana and I enjoy going on holiday. However as there are restrictions for traveling at the moment (current year 2021) our way to get to the holiday mood again is by looking at our holiday pictures and then enjoy the sunshine in the garden. We always go through folders on our computer. Zuzana was suggesting many times, that it would be great to have holiday pictures in one place. That is why I decided to create this gallery website as my MS2 project. 
+As mentioned in the intro of the landing page, my wife Zuzana and I enjoy going on holiday. However as there are restrictions for traveling at the moment (current year 2021) our way to get to the holiday mood again is by going through folders on our computer and look at our holiday pictures.<br> Zuzana was suggesting many times, that it would be great to have holiday pictures in one place. That is why I decided to create this gallery website as my MS2 project.
 
 
 ## Table of Contents

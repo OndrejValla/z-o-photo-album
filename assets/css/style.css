@@ -377,7 +377,7 @@ body {
     font-size: 32px;
 }
 
-/* ---------Random picture page  */
+/* ----Random picture page  */
 .random-picture-container {
     text-align: center;
     text-decoration: wavy;
@@ -425,6 +425,10 @@ body {
 
 .invisible {
     color: rgb(23, 75, 126);
+}
+
+.slideshow-container {
+    margin-bottom: 100px;
 }
 
 /* --------- Footer */

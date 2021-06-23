@@ -26,10 +26,10 @@ function sendMail(contactForm) {
 
 // https://stackoverflow.com/questions/37525339/change-submit-button-text-after-form-submit
 $("#submit-button").click(function (event) {
-    $('#submit-button').val('Sending message...');
+    $("#submit-button").val('Sending message...');
     setTimeout(function () {
-        $('#submit-button').val('Send');
-        $('#contact-form')[0].reset();
+        $("#submit-button").val('Send');
+        $("#contact-form")[0].reset();
     }, 2000);
 });
 
@@ -57,13 +57,13 @@ function failedMessage() {
     document.getElementById("interaction-p").innerHTML = "Please try again, or contact us directly at <br> ondrej.valla@gmail.com <br> Thank you.";
 }
 
-/* Smiling icons color change
+/* Venus and Mars icons color change
  Inspired by Code Institute 
  JavaScript & the DOM  Handling DOM Events  Keyboard Events */
 function pressedKeys(event) {
-    let pressedBeam = document.getElementById('pressed-beam');
-    let upSmile = document.getElementById('up-smile');
-    let downBeam = document.getElementById('down-beam');
+    let pressedBeam = document.getElementById("pressed-beam");
+    let upSmile = document.getElementById("up-smile");
+    let downBeam = document.getElementById("down-beam");
 
     if (event.repeat) {
         return false;

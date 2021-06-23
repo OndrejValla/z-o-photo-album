@@ -1,14 +1,14 @@
 function bodyLoaded() {
     console.log('Body has loaded!');
-}
+};
 
 // Zuzana Ondrej Logo
 $(".fa-heart").mouseenter(function () {
-    $(".fa-heart").css("color", "red");
+    $(".fa-heart").css('color', 'red');
 });
 
 $(".fa-heart").mouseleave(function () {
-    $(".fa-heart").css("color", "black");
+    $(".fa-heart").css('color', 'black');
 });
 
 /* For following usage of jQurey I was inspired by Code Institute Mr Niel Mc Ewen
@@ -16,7 +16,7 @@ AND BIG THANK YOU TO MY MENTOR NISHANT KUMAR WHO SHOWED ME HOW TO TIDY UP THIS C
 */
 
 //Zuzana-style and Ondrej-style buttons //
-$("#zuzana-button").on("click", function () {
+$("#zuzana-button").on('click', function () {
     $("body").removeClass('body-blue').addClass('body-pink');
     $(".intro-p").html("<p>I love photography and traveling with my husband.<br> I really enjoy when we can spend time together somewhere where we feel great. <br> Zuzana</p>");
     $(".intro-p").addClass('intro-p-pink');
@@ -25,13 +25,13 @@ $("#zuzana-button").on("click", function () {
     $(".footer-sections").removeClass('footer-sections-blue').addClass('footer-sections-pink');
 });
 
-$("#ondrej-button").on("click", function () {
+$("#ondrej-button").on('click', function () {
     $("body").removeClass('body-pink').addClass('body-blue');
     $(".intro-p").html("<p>The best time is when I am with Zuzana. Even better when we go somewhere, exploring new places and meeting all the fantastic people.<br> The World is awesome. I'm Lovin' It!! <br>Ondrej</p>");
     $(".intro-p").addClass('intro-p-blue');
     $("#intro-text-box").removeClass('intro-text-pink').addClass('intro-text-blue');
     $(".gallery-window-row").removeClass('gallery-window-row-pink').addClass('gallery-window-row-blue');
-    $(".gallery-message-h3").css("color", "whitesmoke");
+    $(".gallery-message-h3").css('color', 'whitesmoke');
     $(".footer-sections").removeClass('footer-sections-pink').addClass('footer-sections-blue');
     $(".footer-socials").removeClass('footer-socials').addClass('footer-socials-blue');
 });
@@ -58,7 +58,7 @@ $(".dubai-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-$(".cuba-button").on("click", function () {
+$(".cuba-button").on('click', function () {
     $(".cuba-window").show('medium');
     $(".all-destinations-window").hide('fast');
     $(".dubai-window").hide('fast');
@@ -69,7 +69,7 @@ $(".cuba-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-$(".singapore-button").on("click", function () {
+$(".singapore-button").on('click', function () {
     $(".singapore-window").show('medium');
     $(".all-destinations-window").hide('fast');
     $(".dubai-window").hide('fast');
@@ -80,7 +80,7 @@ $(".singapore-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-$(".java-button").on("click", function () {
+$(".java-button").on('click', function () {
     $(".java-window").show('medium');
     $(".all-destinations-window").hide('fast');
     $(".dubai-window").hide('fast');
@@ -91,7 +91,7 @@ $(".java-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-$(".miami-button").on("click", function () {
+$(".miami-button").on('click', function () {
     $(".miami-window").show('medium');
     $(".all-destinations-window").hide('fast');
     $(".dubai-window").hide('fast');
@@ -102,7 +102,7 @@ $(".miami-button").on("click", function () {
     $(".gallery-message-h3").hide('fast');
 });
 
-$(".disney-button").on("click", function () {
+$(".disney-button").on('click', function () {
     $(".disney-window").show('medium');
     $(".all-destinations-window").hide('fast');
     $(".dubai-window").hide('fast');
@@ -117,8 +117,8 @@ $(".disney-button").on("click", function () {
 const card = document.querySelectorAll('.card-body');
 
 card.forEach((card) => {
-    card.addEventListener("click", () => {
-        card.classList.toggle("is-flipped");
+    card.addEventListener('click', () => {
+        card.classList.toggle('is-flipped');
     });
 });
 
@@ -178,15 +178,15 @@ var locations = [{
  https://www.w3resource.com/javascript-exercises/javascript-dom-exercise-11.php */
 
 $(".star-yellow").mouseenter(function () {
-    $(".star-yellow").css("color", "gold");
+    $(".star-yellow").css('color', 'gold');
 });
 
 $(".star-yellow").mouseleave(function () {
-    $(".star-yellow").css("color", "goldenrod");
+    $(".star-yellow").css('color', 'goldenrod');
 });
 
 $(".star-white").click(function () {
-    $(".star-white").css("color", "white");
+    $(".star-white").css('color', 'white');
 });
 
 function display_random_image() {
@@ -235,10 +235,6 @@ function display_random_image() {
         width: "396",
         height: "528"
     }, {
-        src: "assets/images/random/random-22.jpg",
-        width: "396",
-        height: "528"
-    }, {
         src: "assets/images/random/random-20.jpg",
         width: "384",
         height: "512"
@@ -263,7 +259,7 @@ function display_random_image() {
     var newImage = getRandomInt(0, preBuffer.length - 1);
 
     // remove the previous images
-    var images = document.getElementsByTagName('img');
+    var images = document.getElementsByTagName("img");
     var l = images.length;
     for (var p = 0; p < l; p++) {
         images[0].parentNode.removeChild(images[0]);
